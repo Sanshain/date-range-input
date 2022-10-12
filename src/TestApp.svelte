@@ -7,9 +7,9 @@
 	const toIsoDate = date => `${date.year}-${pad2(date.month)}-${pad2(date.day)}`
 
 	let changes = []
-
+	
 	let start = { year: 2020, month: 1, day: 10 }
-	let end = { year: 2020, month: 1, day: 20 }
+	let end = { year: 2020, month: 1, day: 20 }	
 
 	let visibleStartMonth = { year: 2020, month: 1 }
 	let visibleEndMonth = { year: 2020, month: 2 }
