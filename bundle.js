@@ -1,3 +1,5 @@
+'use strict';
+
 function noop() { }
 function run(fn) {
     return fn();
@@ -1324,5 +1326,5 @@ class DateRangeInput extends SvelteComponent {
 	}
 }
 
-export default DateRangeInput;
+module.exports = DateRangeInput;
 //# sourceMappingURL=bundle.js.map

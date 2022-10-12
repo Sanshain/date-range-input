@@ -9,6 +9,33 @@
 	<link rel='icon' type='image/png' href='./favicon.png'>
 
 	<script defer src='./build/bundle.js'></script>
+	<!-- <script type="module">
+		import DateRangeInput from '../bundle.js';
+
+		window.onload = () => {
+			const dateRangeInput = new DateRangeInput({
+				target: document.getElementById('test-app-target'),
+				props: {
+					start: {
+						year: 2020,
+						month: 1,
+						day: 5,
+					},
+					end: {
+						year: 2020,
+						month: 1,
+						day: 18,
+					},
+					visibleEndMonth: {
+						year: 2020,
+						month: 2
+					}
+				}
+			})
+		}		
+	</script> -->
+
+
 	<script type=module src='./build/custom-element.js'></script>
 </head>
 <body>

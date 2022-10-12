@@ -37,7 +37,9 @@ const componentConfig = {
 	input: "src/DateRangeInput.svelte",
 	output: {
 		sourcemap: true,
-		format: "esm",
+		// format: "esm",
+		// format: "iife",
+		format: "cjs",
 		name: "DateRangeInput",
 		file: outputPath,
 	},
